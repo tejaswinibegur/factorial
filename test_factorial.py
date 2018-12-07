@@ -3,7 +3,7 @@ from factorial import main
 
 class TestFactorial(unittest.TestCase):
     def test_fact(self):
-        exp_result=6
+        exp_result=5
         main.x=3
         test_result=main()
         self.assertEqual(exp_result,test_result)
