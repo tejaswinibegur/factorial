@@ -8,5 +8,5 @@ class TestFactorial(unittest.TestCase):
         test_result=main()
         self.assertEqual(exp_result,test_result)
 
-if __name__ == "__main__":
-    unittest.main()
+if __name__ == '__main__':
+    unittest.main(argv=['first-arg-is-ignored'], exit=False)
